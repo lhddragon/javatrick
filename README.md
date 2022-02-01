@@ -12,13 +12,25 @@ java usage for interview
 
 
 
-## Topic
+## Convert integer to char
+    int a=1;    
+    char c=(char)(a+'0'); 
 
-## Topic
+## Substring
+    String s1="javatpoint";  
+    System.out.println(s1.substring(2,4));//returns va  
+    System.out.println(s1.substring(2));//returns vatpoint 
 
-## Topic
+## For Loop with two variables in Java
+    for (int i = 0, j = 10; i < 10 && j > 0; i++, j--) {
+        System.out.println("i = " + i + " :: " + "j = " + j);
+    }
 
-## Topic
+## String <-> char[]
+    String a = "abc";
+    char[] chars = a.toCharArray();
+    a[0] = 'd';
+    String b = new String(chars); // "dbc"
 
 ## Topic
 
