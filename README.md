@@ -32,11 +32,21 @@ java usage for interview
     a[0] = 'd';
     String b = new String(chars); // "dbc"
 
-## Topic
+## Define a new class
+    public class Node {
+        int x, y;
+        public Node(int x, int y) {
+            this.x = x;
+            this.y = y;
+        }
+    }
 
-## Topic
+## Initialize a int array
+    public int[] locationX = {0, 1, -1, 0};
+    public int[] locationY = {1, 0, 0, -1};
 
-## Topic
+## Build Array using a single value
+    new ArrayList<>(Arrays.asList(value));
 
 ## Topic
 
