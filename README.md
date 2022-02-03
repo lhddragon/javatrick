@@ -48,7 +48,8 @@ java usage for interview
 ## Build Array using a single value
     new ArrayList<>(Arrays.asList(value));
 
-## Topic
+## Check that word2 is a prefix of word1
+    word1.startsWith(word2);
 
 ## Topic
 
