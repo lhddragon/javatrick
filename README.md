@@ -51,11 +51,21 @@ java usage for interview
 ## Check that word2 is a prefix of word1
     word1.startsWith(word2);
 
-## Topic
+## Char to Integer
+    char c='1';  
+    int a=Character.getNumericValue(c); 
 
-## Topic
+## List to one string with comma separated
+    List<String> cities = Arrays.asList("Milan",
+                                    "London",
+                                    "New York",
+                                    "San Francisco");
 
-## Topic
+    String citiesCommaSeparated = String.join(",", cities);
+
+## Integer to String
+    int i=200;  
+    String s=String.valueOf(i);  
 
 ## Topic
 
