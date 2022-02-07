@@ -67,7 +67,14 @@ java usage for interview
     int i=200;  
     String s=String.valueOf(i);  
 
-## Topic
+## Build a map for a tree to store each node's parent node
+    private void dfs(TreeNode root, TreeNode parent, Map<TreeNode, TreeNode> map) {
+        if (root != null) {
+            map.put(root, parent);
+            dfs(root.left, root, map);
+            dfs(root.right, root, map);
+        }
+    }
 
 ## Topic
 
