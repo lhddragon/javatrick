@@ -76,6 +76,127 @@ java usage for interview
         }
     }
 
+## Sort sub-array - [example](https://leetcode.com/problems/accounts-merge/solution/)
+    Collections.sort(account.subList(1, account.size())); 
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
+## Topic
+
 ## Topic
 
 ## Topic
