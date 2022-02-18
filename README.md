@@ -79,7 +79,8 @@ java usage for interview
 ## Sort sub-array - [example](https://leetcode.com/problems/accounts-merge/solution/)
     Collections.sort(account.subList(1, account.size())); 
 
-## Topic
+## If a char is digit
+    Character.isDigit(a);
 
 ## Topic
 
