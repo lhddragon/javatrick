@@ -82,7 +82,10 @@ java usage for interview
 ## If a char is digit
     Character.isDigit(a);
 
-## Topic
+## Iterate hashmap from small to large
+    for (int i = Collections.min(map.keySet()); i <= Collections.max(map.keySet()); i++) {
+        result.add(map.get(i));
+    }
 
 ## Topic
 
