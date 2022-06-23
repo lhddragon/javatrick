@@ -87,7 +87,41 @@ java usage for interview
         result.add(map.get(i));
     }
 
-## Topic
+## Create class with override so it can be checked in HashSet.
+    public class Node {
+        int x, y;
+        int remainK;
+        int steps;
+        Node(int steps, int x, int y, int remainK) {
+            this.steps = steps;
+            this.x = x;
+            this.y = y;
+            this.remainK = remainK;
+        }
+        
+        @Override
+        public int hashCode() {
+            // needed when we put objects into any container class
+            return (this.x + 1) * (this.y + 1) * this.remainK;
+        }
+
+        @Override
+        public boolean equals(Object other) {
+            /**
+             * only (row, col, k) matters as the state info
+             */
+            if (!(other instanceof Node)) {
+                return false;
+            }
+            Node newState = (Node) other;
+            return (this.x == newState.x) && (this.y == newState.y) && (this.remainK == newState.remainK);
+        }
+
+        // @Override
+        // public String toString() {
+        //     return String.format("%d %d %d", this.x, this.y, this.remainK);
+        // }
+    }
 
 ## Topic
 
